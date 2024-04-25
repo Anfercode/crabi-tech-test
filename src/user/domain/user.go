@@ -26,12 +26,17 @@ func NewUser(id, name, lastName, email, password string) (*User, error) {
 		return nil, err
 	}
 
+	pass, err := value_objects.NewPassword(password)
+	if err != nil {
+		return nil, err
+	}
+
 	return &User{
 		ID:       uuid.String(),
 		Name:     name,
 		LastName: lastName,
 		Email:    e.String(),
-		Password: password,
+		Password: pass.String(),
 	}, nil
 }
 

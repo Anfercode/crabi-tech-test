@@ -36,7 +36,7 @@ To see more about the functionalities of the project run the following command.
 
 ### 1. CreateUser
 
-Crea un nuevo usuario con los detalles proporcionados.
+Create a new user with the details provided.
 
 #### POST /users/
 
