@@ -107,7 +107,7 @@ En este caso haria que la consulta sea una maquina de estados, esto para poder m
 
 En este caso en especifico, haria un listing de doctores, con sus especialidades, en dado caso que el paciente necesite un trato mas especifico, los doctores podran estar taggeados por especializacion para facilitar la busqueda del paciente, para el caso de una consulta "general", haria una funcionalidad a parte donde sea un boton, donde el usuario llene un formulario con que patologia o dolencia tiene y despues hacer un sistema de colas para asignar los doctores dependiendo de la carga operativa de cada uno, por ejemplo que un doctor no pueda tener mas de *n* pacientes a la semana, asi me aseguro que cada doctor no tenga una carga mas que los demas, ahora para la interfaz de calendar management, lo que haria, es que el paciente propone un horario, dependiendo de la disponibilidad del profesional escogido o asignado, ahi al momento de que el usuario escoja una fecha, se le avisara al doctor, por correo, el horario escogido por el cliente, ya con esto el doctor confirmaria o reagendaria la cita
 
-### Conclucion
+### Conclusion
 
 Esto es un happy path propuesto por mi para el dado caso de que todo salga como se propuso, y el enfoque es full orientado a la parte de como se resolveria de una manera mas tecnica, por que un buen mvp puede ser simplemente hacer algo con no-code o con la suite de google para validar la idea, espero que la solucion planteada sea del agrado del equipo.
 
